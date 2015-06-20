@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>My page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- コメント文 -->
+
+<body>  
+ <nav>
+    <ul class="container">
+        <li><a href="http://facebook.com">Facebook</a></li>
+        <li><a href="">instagram</a></li>
+        <li><a href="">Keio SFC</a></li>
+    </ul>
+ </nav>
+ 
+ 
+ <div class="sidebar">
+    <h2>慶應義塾大学</h2>
+    <img src="DSC00832.jpg " alt="" width="200">
+    <p>SFC・総合政策学部</p>
+</div>
+
+#key-block a{
+        font-size: 20px;
+        color: #EEEEEE;
+        background: #DB5A6B;
+        border: 1px solid #DB5A6B;
+        padding: 8px;
+        text-decoration: none;
+        border-radius: 3px;
+        transition: 1s;
+}
+
+#key-block a:hover{
+    background: #F3C13A;
+    color: #EEEEEE;
+}
